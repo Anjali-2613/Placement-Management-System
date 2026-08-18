@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_Skills</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Skills__c )</errorConditionFormula>
+    <errorDisplayField>Skills__c</errorDisplayField>
+    <errorMessage>The Skills are mandatory.</errorMessage>
+</ValidationRule>

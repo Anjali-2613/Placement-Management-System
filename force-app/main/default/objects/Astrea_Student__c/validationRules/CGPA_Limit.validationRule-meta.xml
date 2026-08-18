@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CGPA_Limit</fullName>
+    <active>true</active>
+    <errorConditionFormula>CGPA__c  &gt; 10</errorConditionFormula>
+    <errorDisplayField>CGPA__c</errorDisplayField>
+    <errorMessage>CGPA cannot be greater than 10</errorMessage>
+</ValidationRule>
